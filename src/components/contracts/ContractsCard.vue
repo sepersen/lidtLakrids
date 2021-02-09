@@ -29,8 +29,8 @@
                         <li class="text-sm">{{ contracts.phone }}</li>
                     </ul>
 
-                    <div class="flex flex-col items-end m-0">
-                        <p class="price-title text-xs text-base font-bold">{{ contracts.priceTitle }}</p>
+                    <div class="flex w-1/2 flex-col items-end m-0">
+                        <p class="price-title text-xs font-bold">{{ contracts.priceTitle }}</p>
                         <p class="text-lg">{{ contracts.priceTag }}</p>
                     </div>
              
@@ -106,6 +106,7 @@ export default {
         border-radius: 15px 0 15px 15px;
         padding: 20px 25px 15px 20px;
         margin-top: 15%;
+        margin-right: 5%;
     }
     .card-desc {
         margin: 13px 0 15px 0;

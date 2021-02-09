@@ -41,7 +41,7 @@ export default {
 }
 
 body {
-  
+  font-size: 62.5%;
   
 }
 

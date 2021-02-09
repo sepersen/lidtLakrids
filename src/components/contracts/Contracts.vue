@@ -2,9 +2,9 @@
     <div class="contracts-wrapper flex flex-col w-full relative">
         <h1 class="title w-3/5 text-lakrids font-semibold">Kontrakter</h1>
 
-        <div class="flex w-full justify-between mt-1">
-            <div v-for="status in statuses" :key="status">
-                <div :class="status">
+        <div class="flex">
+            <div v-for="status in statuses" :key="status" class="flex w-full justify-between">
+                <div :class="status" class="card-container">
                     <ContractsCard :contracts="contracts" :key="i" v-for="(contracts, i) in statusOfCard(status)"></ContractsCard>
                 </div>
             </div>
@@ -144,12 +144,16 @@ export default {
         outline: none;
     }
 
+    .card-container {
+        width: 90%;
+    }
+
     h1 {
         margin-left: 5%;
     }
 
     .contracts-wrapper {
-        margin: 0 5%;
+        margin: 0 3% 0 4%;
     }
 
    .title {
