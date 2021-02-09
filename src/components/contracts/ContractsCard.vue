@@ -82,7 +82,7 @@ export default {
         min-width: 25%;
         background-color: #D9D9D9;
         border-radius: 13px;
-        padding: 2% 10%;
+        padding: 2% 5%;
     }
     .status-grey {
         background-color: #D9D9D9;
