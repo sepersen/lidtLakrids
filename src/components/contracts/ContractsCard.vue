@@ -29,8 +29,8 @@
                         <li class="text-sm">{{ contracts.phone }}</li>
                     </ul>
 
-                    <div class="flex w-1/2 flex-col items-end m-0">
-                        <p class="price-title text-xs font-bold">{{ contracts.priceTitle }}</p>
+                    <div class="flex w-full flex-wrap text-right justify-end m-0">
+                        <p class="price-title text-xs font-bold ">{{ contracts.priceTitle }}</p>
                         <p class="text-lg">{{ contracts.priceTag }}</p>
                     </div>
              
