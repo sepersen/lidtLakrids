@@ -40,7 +40,6 @@
             <ContractsButton/>
             </div>
 
-
         </div>
   
 </template>
